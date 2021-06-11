@@ -6,7 +6,7 @@ Weekly progress and planning.
 
 1) Lasso Ranker集成到工具，对SMACK生成Boogie语句进行转换，满足Lasso Ranker格式.
 
-2) 读LTL2BA论文([***Paper***](https://doi.org/10.1007/978-3-642-28756-5_8))，相关知识，难点：
+2) 读LTL2BA论文([***Paper***](https://doi.org/10.1007/978-3-642-28756-5_8), [***Slides***](https://github.com/fengwz17/Paper-List/blob/master/6.9_notated.pdf))，相关知识，难点：
 
 * Very weak Alternating Automata (VWAA)：注意到weak alternating automata表达能力与NBA是相同的，对于very weak且接受条件为co-Büchi的情况，其表达能力目前还不太情况..
 
