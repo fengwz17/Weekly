@@ -53,4 +53,6 @@ Weekly progress and planning.
 #### 2. Spot中实现：
 
 * 参看NCSB算法的实现. ([Seminator](https://github.com/mklokocka/seminator)).
+
+#### 3. LassoRanker.
  
