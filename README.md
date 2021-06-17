@@ -35,7 +35,7 @@ Weekly progress and planning.
 
 * 还没做完，但是知道了SMACK生成的Boogie语句处理四则运算等操作时全都是以函数调用形式实现的，后面需要调用相应接口函数继续处理assign语句.
 
-#### 2. 读论文，学习rank-based与slice-based的Finately ambiguity Büchi automata取补算法:
+#### 2. 读论文，学习rank-based与slice-based的Finitely ambiguity Büchi automata取补算法:
 
 * 把握文章的主要脉络，要能脱稿讲清楚.
 * 什么是FANBWs? 
