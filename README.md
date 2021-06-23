@@ -55,4 +55,15 @@ Weekly progress and planning.
 * 参看NCSB算法的实现. ([Seminator](https://github.com/mklokocka/seminator)).
 
 #### 3. LassoRanker.
+
+## 2021.6.23
+### Progress
+
+#### 1. 读论文[***TACAS'16***](https://doi.org/10.1007/978-3-662-49674-9_49)，学习semi-deterministic Büchi automata取补的NCSB算法，结合[Seminator](https://github.com/mklokocka/seminator)和spot代码理解.
+#### 2. 基于[Seminator](https://github.com/mklokocka/seminator)实现了对unambiguity Büchi automata取补的Slice-based算法的框架.
+
+* Reduced transition写的有问题，需要进行修改，在计算N'时保存map，并记录边的accepting信息，在计算C'的时候用前面记录的map替代原来自动机的transition.
+### Planning
+
+#### 实现Slice-based算法，进行实验.
  
