@@ -66,4 +66,21 @@ Weekly progress and planning.
 ### Planning
 
 #### 实现Slice-based算法，进行实验.
+
+## 2021.6.30
+### Progress
+
+#### 1. 代码实现：
+* 基于seminator和spot提供的自动机库和接口等实现了GandALF文章中的NCB算法（一种对unambiguous \buchi automata取补的slice-based的算法）.
+* 实现了李老师提出的一个对semi-deterministic automata取补的新算法.
+
+#### 2. 实验结果:
+* 用150个ltl公式生成相应自动机跑了实验，输入unambiguous自动机，转为半确定自动机，分别用seminator中的取补算法和NCB算法，semi自动机取补新算法进行实验，实现的NCB算法结果正确，semi取补新算法有两个样例不对；
+* 且目前实现的算法生成补自动机状态数普遍较大.
+   
+### Planning
+    
+#### 1. 找出semi取补新算法测试不对的问题，将其调试正确；
+#### 2. 实现上做一些优化，减小状态数;
+#### 3. 跑更多例子，记录运行时间和状态数，和spot，seminator中的算法进行比较.
  
