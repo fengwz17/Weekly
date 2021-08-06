@@ -84,3 +84,25 @@ Weekly progress and planning.
 #### 2. 实现上做一些优化，减小状态数;
 #### 3. 跑更多例子，记录运行时间和状态数，和spot，seminator中的算法进行比较.
  
+## 2021.8.6
+### Progress
+原来整个7月都没更新啊，不过也是因为7月初实现了两个算法之后就开始跑实验，然后去南京，回来就在写论文了，然后一直在写论文和跑实验，本质上没有什么特别新的东西...目前论文基本写完了，重新开始更新进展吧.
+
+#### 1. 论文：
+* 第六章基本写完了（一个初稿），主要是对SDBA构造co-deterministic DAGs，再基于co-deterministic DAGs构造补自动机的NSBC算法，最后还有一个从SDBA转换到DRA的算法（Determinization）.
+
+#### 2.实验：
+* 根据Andrea的结果来看效果一般，有一点优势，但不是“outstanding, overwhelming”...可能和benchmark的选取有关吧.
+
+### planning
+#### 1.论文
+* 尽快写完投稿，如果实验效果没有特别好的话可能选一个理论一点的期刊投稿.
+#### 2.硬件验证：开始学习一些硬件验证相关的内容：
+* RISC-V指令集，
+* Chisel语言，
+* 硬件形式化验证，
+* LLVM IR编译器验证（？）
+#### 3.读论文
+* 读CAV文章，
+* 读principal of program analysis...(已经退群了还要讲吗)
+
