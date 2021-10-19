@@ -106,3 +106,19 @@ Weekly progress and planning.
 * 读CAV文章，
 * 读principal of program analysis...(已经退群了还要讲吗)
 
+## 2021.10.19
+### Progress
+* TACAS投稿,
+* 开始看NutShell源代码.
+
+### planning
+#### 1. 自动机
+* 和Andrea完成TACAS artifact提交，
+* 11月期刊投稿，
+* 后面考虑优化COLA中确定化的算法，可能先主要让python jupyter能用.
+
+### 2. 硬件验证
+* 看NutShell源码，
+* 看chisel book第十二章，
+* 看sail中生成SMT后端的代码和CAV文章.
+
