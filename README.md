@@ -117,8 +117,20 @@ Weekly progress and planning.
 * 11月期刊投稿，
 * 后面考虑优化COLA中确定化的算法，可能先主要让python jupyter能用.
 
-### 2. 硬件验证
+#### 2. 硬件验证
 * 看NutShell源码，
 * 看chisel book第十二章，
 * 看sail中生成SMT后端的代码和CAV文章.
 
+## 2022.2.16
+### Discussion
+* 尝试pono后端使用不同求解器，发现出问题的地方；
+* 整理pono：从编译到代码理解，是不是使用了抽象技术，加速了求解，但造成某些错误无法发现；
+* 如何提升scalability：1）从Chisel到btor的转化是否丢失了某些结构信息；2）pono中从迁移系统到编码smt公式是否丢失了某些信息？如果额外编码上这些程序，或处理器设计带来的信息，看能不能加速求解（类比贺飞老师论文程序结构信息），如bool变量的赋值；
+* 模型检测算法本身：bmc（处理器设计的结构信息encodeing进去加速，帮助求解），pono等能否继续优化，针对具体问题定制化算法
+
+### Planning
+* sail:发邮件
+* Z3网页版
+* pono，model checking算法深入了解
+* 期刊文章
