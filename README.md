@@ -134,3 +134,11 @@ Weekly progress and planning.
 * Z3网页版
 * pono，model checking算法深入了解
 * 期刊文章
+
+## 2022.4.2
+### Progress
+* Studying pono IC3IA source code
+
+### Planning
+* Try to improve pono IC3IA: combine IA with UF
+
