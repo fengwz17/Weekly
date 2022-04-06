@@ -142,3 +142,9 @@ Weekly progress and planning.
 ### Planning
 * Try to improve pono IC3IA: combine IA with UF
 
+## 4.6 
+### Todo
+* 看pono-IC3IA代码
+* 詹博华老师讨论班：能否在pono中类似avr实现启发式算法，unsat core最小化？
+* 吴老师：读文章（在C中实现了一个reference model，然后生成smt 文件）
+
