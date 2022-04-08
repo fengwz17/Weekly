@@ -146,5 +146,7 @@ Weekly progress and planning.
 ### Todo
 * 看pono-IC3IA代码
 * 詹博华老师讨论班：能否在pono中类似avr实现启发式算法，unsat core最小化？
-* 吴老师：读文章（在C中实现了一个reference model，然后生成smt 文件）
+* 吴老师：读文章 1.在C中实现了一个reference model，然后生成smt 文件）； 2.ARM指令集一致性验证
+* refine过程加UF：如何增加新谓词，add(a,b) = add(b,a), if a = b, add(a,c) = add(b,c)
+* inductive_generalization：去掉一些clause中的literal，其中reduced unsat core考虑如何写代码
 
