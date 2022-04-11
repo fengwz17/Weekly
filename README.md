@@ -150,3 +150,9 @@ Weekly progress and planning.
 * refine过程加UF：如何增加新谓词，add(a,b) = add(b,a), if a = b, add(a,c) = add(b,c)
 * inductive_generalization：去掉一些clause中的literal，其中reduced unsat core考虑如何写代码
 
+## 4.11
+### Todo
+* Minimal unsat core
+* EUF
+* ARM ISA-Formal paper
+* 并行IC3：做block时如何并行？实现到word-level IC3
