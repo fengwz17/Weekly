@@ -156,3 +156,23 @@ Weekly progress and planning.
 * EUF
 * ARM ISA-Formal paper
 * 并行IC3：做block时如何并行？实现到word-level IC3
+
+## 4.13
+### Progress
+* 需要看AVR thesis的第三章wIC3+EA技术
+* Mufan: avr中reach_simulate.cpp部分fetch_failure_condition
+* 关于pono中使用unsat core：还没有太清楚如何实现，看到ic3base.cpp中，IC3Base::rel_ind_check函数内有如下代码：
+```
+ // Use unsat core to get cheap generalization
+ UnorderedTermSet core;
+ solver_->get_unsat_assumptions(core);
+ assert(core.size());
+``` 
+* 而ic3base.cpp的IC3Base::inductive_generalization部分有注释
+```
+TODO use unsat core reducer
+```
+* 需要考虑如何增加unsat core reducer，注意到ic3base.h有定义reducer_，但似乎没有使用，需要考虑如何利用reducer_：
+```
+smt::UnsatCoreReducer reducer_;
+```
