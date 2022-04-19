@@ -176,3 +176,15 @@ TODO use unsat core reducer
 ```
 smt::UnsatCoreReducer reducer_;
 ```
+
+## 4.19
+### tomasulo算法相关
+* ROB继续看；
+* 果壳中的具体实现；
+* McMilan验证：Verfication of an Implementation of Tomasulo's Algorithm by Compositional Model Checking.
+
+### model checking算法
+* pono和avr算法；
+* pono中怎么实现一些优化（工程）.
+
+
