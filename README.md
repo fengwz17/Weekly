@@ -188,3 +188,9 @@ smt::UnsatCoreReducer reducer_;
 * pono中怎么实现一些优化（工程）.
 
 
+## 5.9
+### PDR下近似？
+* PROGRESS对blocked cubes会清空所有frames
+* 如何对PDR做下近似，做类似PROGRESS过程中保留frames
+* PDR的条件需要修改，类似有inv增长，每次都是下近似，可能从找错的角度会好一些
+* 对偶版本PDR
