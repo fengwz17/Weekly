@@ -248,3 +248,19 @@ smt::UnsatCoreReducer reducer_;
 ### Progress
 
 * 实现了一个简单版本的下近似算法。
+
+### TODO
+
+* 能否考虑提出一个方法对bit长度进行抽象，从32位到8位得到的counterexample也是32位情况下。
+
+* unsat core和bitvector实现，bitvector：
+
+  1) bit blasting, 直接split bitvector variables;
+
+  2) 做抽象？
+
+* 和PROGRESS找错对比，测试benchmark。
+
+* under-approximation和over-approximation (IC3)如何结合。
+
+* 如何做模型抽象。
