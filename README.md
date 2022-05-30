@@ -264,3 +264,13 @@ smt::UnsatCoreReducer reducer_;
 * under-approximation和over-approximation (IC3)如何结合。
 
 * 如何做模型抽象。
+
+## 5.30
+
+### Progress
+
+* bit-vector 算法实现中，暂时还有些问题，思考讨论了unsat-core部分的算法。
+
+### TODO
+
+* 实现bit-vector 算法，跑benchmark对比看实验效果。
