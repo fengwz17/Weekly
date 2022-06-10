@@ -274,3 +274,17 @@ smt::UnsatCoreReducer reducer_;
 ### TODO
 
 * 实现bit-vector 算法，跑benchmark对比看实验效果。
+
+## 6.10
+
+### Progress
+
+* 还在实现Li老师的generate算法，不知道为什么有问题，非常奇怪。
+* 在看CAR算法和EveryThingAboutGeneralize文章。
+
+### Plan
+
+* 本周实现generalize算法。
+* 尽量把文章重点部分看完。
+* 跑一些实验。
+* 思考或者实验对比今天讨论的Reach和IC3dual算法。
