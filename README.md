@@ -288,3 +288,19 @@ smt::UnsatCoreReducer reducer_;
 * 尽量把文章重点部分看完。
 * 跑一些实验。
 * 思考或者实验对比今天讨论的Reach和IC3dual算法。
+
+## 6.14
+
+### TODO
+
+* act实现。
+* 深度优先实现。
+* DualIC3尽量实现。
+
+## 6.27
+
+### Plan
+
+* 整理前后向结合的算法，并实现。
+
+* 调研QBF unsat core工具。
